@@ -1,19 +1,10 @@
-#For a function, ,1st we must define a function using "def" keyword.
+#For a function, ,1st we must define a function using "def" KEYWORD
 
-def hello(name) :
+# Function using String as argumnet
 
+def hello(name,numbers) :
+    print(name+str(numbers))
 
-    for x in name :
-        print(x)
+vegetables = "Orange and Apple"
 
-
-def hai():
-    print("Hi .Function named as hey is defined and called")
-
-
-
-hai()
-
-text = ["Vijeesh","Teju","Tamu"]
-
-hello(text)
+hello(vegetables,2)
