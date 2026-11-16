@@ -2,11 +2,13 @@ vegetables = ["Orange.mp3","Banana.mp3","Pappaya.mp3","mango.mp3"]
 
 for x in vegetables :
 
-    print(vegetables[0])
+    print(x[0:-4])
 
-for i in range(10) :
+    print(x)
 
-    print(i)
+for x in range(10) :
+
+    print(x)
 
 print("Enter a number to display the multplication Table")
 
